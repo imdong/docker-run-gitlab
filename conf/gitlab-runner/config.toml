@@ -1,0 +1,9 @@
+[[runners]]
+  url = "https://gitlab.test/"
+  token = "GR1348941xTm7CzEWh2wm2Kf9pRga"
+  executor = "docker"
+  tls-ca-file = "/etc/gitlab-runner/certs/gitlab.test.crt"
+
+[runners.docker]
+  image = "alpine:latest"
+  services = []
